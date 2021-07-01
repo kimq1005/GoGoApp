@@ -24,6 +24,7 @@ class DrinkMeun_Adapter:RecyclerView.Adapter<DrinkMeun_Adapter.DrinkMenuViewHold
     override fun onBindViewHolder(holder: DrinkMenuViewHolder, position: Int) {
         drinkmenuItemList?.let{
             holder.bind(it[position])
+            //push합니다
         }
     }
 
